@@ -19,14 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/syedmazharaliraza/online-shop.git"
+    "url": "git+https://github.com/Sudhanshubhandari/The-Book-Storee.git"
   },
-  "author": "Syed Mazhar Ali Raza",
+  "author": "Sudhanshu",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/syedmazharaliraza/online-shop/issues"
-  },
-  "homepage": "https://github.com/syedmazharaliraza/online-shop#readme",
+
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
