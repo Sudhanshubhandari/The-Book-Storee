@@ -21,44 +21,10 @@ const products= [
     genre: "fantasy",
     rating: 3.25,
     numOfRatings: 4,
-    reviews: [
-      {
-        user: "62ad8d0d3a2904d8590de842",
-        name: "Admin user",
-        rating: 3,
-        comment: "Nice Book!",
-
-        
-      },
-      {
-        user: "62ad8d0d3a2904d8590de844",
-        name: "User 1",
-        rating: 5,
-        comment:
-          "I really appreciate the efforts put in by the author in this book!",
-
-      },
-      {
-        user: "62ad8d0d3a2904d8590de844",
-        name: "User 1",
-        rating: 2,
-        comment: "oiuhjio",
-
-       
-      },
-      {
-        user: "634d99baf07772073755114e",
-        name: "Ashutosh Jha",
-        rating: 3,
-        comment: "Nice!",
-
-       
-      },
-    ],
-   
-   
-  },
-  {
+    reviews: [],
+     },
+     {
+  
     user: "62ad8d0d3a2904d8590de842",
     name: "Harry Potter and the Deathly Hallows",
     sku: [
