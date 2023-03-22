@@ -35,7 +35,7 @@ const PlaceOrderPage = () => {
     (acc, item) => acc + item.price * item.quantity,
     0
   );
-
+     console.log(order)
   cart.shippingPrice = cart.itemsPrice > 499 ? 0 : 100;
 
   cart.taxPrice = 0 * cart.itemsPrice.toFixed(2);
