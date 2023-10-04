@@ -124,7 +124,7 @@ const Profile = () => {
           <Form.Control
             type='text'
             placeholder='Enter address'
-            value={billingAddress.address}
+            value={billingAddress?.address}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
@@ -138,7 +138,7 @@ const Profile = () => {
           <Form.Control
             type='text'
             placeholder='Enter city name'
-            value={billingAddress.city}
+            value={billingAddress?.city}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
@@ -152,7 +152,7 @@ const Profile = () => {
           <Form.Control
             type='text'
             placeholder='Enter state name'
-            value={billingAddress.state}
+            value={billingAddress?.state}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
@@ -166,7 +166,7 @@ const Profile = () => {
           <Form.Control
             type='text'
             placeholder='Enter landmark'
-            value={billingAddress.landmark}
+            value={billingAddress?.landmark}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
@@ -180,7 +180,7 @@ const Profile = () => {
           <Form.Control
             type='number'
             placeholder='Enter phone number'
-            value={billingAddress.phoneNumber}
+            value={billingAddress?.phoneNumber}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
@@ -194,7 +194,7 @@ const Profile = () => {
           <Form.Control
             type='number'
             placeholder='Enter pincode'
-            value={billingAddress.pincode}
+            value={billingAddress?.pincode}
             onChange={(e) => {
               setBillingAddress({
                 ...billingAddress,
