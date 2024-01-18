@@ -41,7 +41,7 @@ const Profile = () => {
       } else {
         setName(user.name);
         setEmail(user.email);
-        setBillingAddress(user.billingAddress);
+        setBillingAddress(user?.billingAddress);
       }
     }
   }, [dispatch, user, userInfo, navigate]);
