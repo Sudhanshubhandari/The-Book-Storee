@@ -112,7 +112,7 @@ const EditUserPage = () => {
               <Form.Control
                 type='text'
                 placeholder='Enter address'
-                value={billingAddress.address}
+                value={billingAddress?.address}
                 onChange={(e) => {
                   setBillingAddress({
                     ...billingAddress,
