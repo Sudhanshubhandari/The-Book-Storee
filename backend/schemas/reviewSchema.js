@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userSchema = mongoose.Schema(
+const reviewSchema = mongoose.Schema(
   {
     user: {
       type: mongoose.Schema.Types.ObjectId,
@@ -22,4 +22,4 @@ const userSchema = mongoose.Schema(
   }
 );
 
-export default userSchema;
+export default reviewSchema;
